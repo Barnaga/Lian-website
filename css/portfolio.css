@@ -1,0 +1,156 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  background-color: #fafafa;
+}
+/* _______________2.1. Залоговки______________*/
+/* _______________2.2. Ссылки________________*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #777777;
+}
+/*___________3. HEADER (Шапка сайта) __________*/
+.header {
+  background-color: #ffffff;
+  margin-bottom: 73px;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 91px;
+  box-shadow: 0 6px 5px -4px rgba(0, 0, 0, 0.15);
+}
+.header__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  font-weight: bold;
+}
+.header__menu li:first-child {
+  padding-left: 20px;
+}
+.header__menu li {
+  padding-left: 46px;
+}
+.header__menu a:hover {
+	color: black;
+}
+.header__menu :active {
+	color: black;
+}
+.heading {
+	height: 350px;
+}
+/*___________5. ASIDE (Доп. навигация) __________*/
+.hr-custom {
+
+  border: 1px solid #e1e1e1;
+}
+.nav__inner ul.list {
+  justify-content: center;
+  min-height: 59px;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+.nav__inner li {
+  padding-left: 20px;
+  padding-right: 15px;
+  position: relative;
+}
+.nav__inner li::after {
+  content: "/";
+  font-size: 30px;
+  font-weight: lighter;
+  position: absolute;
+  right: -8px;
+  color: #e1e1e1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nav__inner li:last-child::after {
+  content: "";
+}
+.nav__inner a {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+  text-transform: uppercase;
+}
+.nav__inner a:hover {
+	color: black;
+}
+/*___________6. FOOTER (Подвал) __________*/
+.footer {
+	max-width: 1600px;
+	height: 300px;
+    margin: 0 auto;
+    padding: 0;
+	background-color: #ffffff;
+
+}
+.footer__logo {
+	padding-top: 66px;
+	display: flex;
+	padding-bottom: 44px;
+}
+.menu-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+.link {
+	display: flex;
+	list-style: none;
+	padding-left: 56px;
+
+	justify-content: center;
+}
+.link a {
+	color: #777777;
+	font-weight: bold;
+	font-family: "fontawesome", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+}
+.hr-copyright {
+	margin-top: 17px;
+	margin-bottom: 0px;
+	border: 1px solid #e1e1e1;
+}
+.hr-links {
+	margin-bottom: 17px;
+	border: 1px solid #e1e1e1;
+	margin-top: 0px;
+}
+.title-author {
+	margin-top: 37px;
+	text-align: center;
+}
+.author {
+	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+	line-height: 26px;
+	color: #9c9c9c;
+	text-transform: uppercase;
+	margin: auto 0;
+	font-weight: 700;
+}
+span {
+	color: black;
+}

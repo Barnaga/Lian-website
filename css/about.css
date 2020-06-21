@@ -1,0 +1,222 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  background-color: #fafafa;
+  font-weight: 400;
+}
+/* _______________2.1. Залоговки______________*/
+h1 {
+	font-weight: lighter;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	letter-spacing: 10px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+
+}
+h2 {
+	color: #2f302f;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 24px;
+	margin: 0 auto;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: lighter;
+}
+h4 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 10px;
+	margin: 0 auto;
+	margin-top: 12px;
+	margin-bottom: 24px;
+
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #777777;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+/* _______________2.2. Ссылки________________*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #777777;
+}
+.header {
+  background-color: #ffffff;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 91px;
+  box-shadow: 0 6px 5px -4px rgba(0, 0, 0, 0.15);
+}
+.header__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  font-weight: bold;
+}
+.header__menu li:first-child {
+  padding-left: 20px;
+}
+.header__menu li {
+  padding-left: 46px;
+}
+.header__menu a:hover {
+	color: black;
+}
+.header__menu a:active {
+	color: black;
+}
+.heading {
+	height: 350px;
+}
+figure {
+	margin: 0 auto;
+}
+.about__inner {
+	margin: 75px 15px 28px;
+	display: flex;
+}
+.image-about {
+	margin-right: 40px;
+}
+.about-text {
+	width: 570px;
+	height: 600px;
+}
+.story {
+	height: 280px;
+	padding-left: 10px;
+}
+.skills {
+	padding-left: 10px;
+}
+.story-text {
+	margin: 0;
+}
+.title {
+	margin: 0;
+	font-size: 18px;
+	color: black;
+	letter-spacing: 5px;
+	margin-bottom: 38px;
+}
+.hr-custom {
+  border: 1px solid #ebebeb;
+}
+ .about__team {
+	 height: 960px;
+ }
+.about__team p {
+	text-align: center;
+	margin: 0 auto;
+}
+.person, .person2, .person3  {
+	width: 358px;
+	height: 630px;
+	float: left;
+	margin-top: 60px;
+	background-color: white;
+
+}
+.person {
+	margin-right: 30px;
+}
+.person2 {
+	margin-right:30px
+}
+.text_team{
+	height: 191px;
+	margin-left: 37px;
+	margin-top: 35px;
+}
+
+.text_team p {
+	text-align: left;
+	line-height: 24px;
+
+}
+.footer {
+	height: 300px;
+    margin: 0 auto;
+    padding: 0;
+	background-color: #ffffff;
+
+}
+.footer__logo {
+	padding-top: 66px;
+	display: flex;
+	padding-bottom: 44px;
+}
+.menu-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+.link {
+	display: flex;
+	list-style: none;
+	padding-left: 56px;
+
+	justify-content: center;
+}
+.link a {
+	color: #777777;
+	font-weight: bold;
+	font-family: "fontawesome", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+}
+.hr-copyright {
+	margin-top: 17px;
+	margin-bottom: 0px;
+	border: 1px solid #e1e1e1;
+}
+.hr-links {
+	margin-bottom: 17px;
+	border: 1px solid #e1e1e1;
+	margin-top: 0px;
+}
+.title-author {
+	margin-top: 37px;
+	text-align: center;
+}
+.author {
+	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+	line-height: 26px;
+	color: #9c9c9c;
+	text-transform: uppercase;
+	margin: auto 0;
+	font-weight: 700;
+}
+span {
+	color: black;
+}
